@@ -20,6 +20,7 @@
   background-image: url(../img/sign-img.png);
   background-size: cover;
   width: 58.5%;
+  padding: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,6 +35,7 @@
 .signin__content {
   display: flex;
   width: 41.5%;
+  padding: 83px;
   flex-direction: column;
   background-color: white;
   align-items: center;
@@ -76,6 +78,11 @@
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
+}
+
+::placeholder {
+  color: #a0a3bd !important;
+  font-family: "Mulish", sans-serif !important;
 }
 
 .form-control-icon {
