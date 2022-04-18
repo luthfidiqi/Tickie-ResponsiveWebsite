@@ -305,9 +305,10 @@ footer {
   margin-bottom: 30px;
 }
 
-.explore p {
+.explore a {
   font-size: 14px;
   color: #4e4b66;
+  text-decoration: none;
 }
 
 .sponsor {
@@ -463,7 +464,7 @@ footer {
   .explore-link {
     display: flex;
   }
-  .explore-link p {
+  .explore-link a {
     margin-right: 61px;
     margin-bottom: 0;
   }
