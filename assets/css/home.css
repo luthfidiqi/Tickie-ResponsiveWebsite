@@ -11,7 +11,8 @@
 }
 
 .navbar {
-  position: sticky !important;
+  top: 0;
+  position: sticky;
   background-color: white !important;
 }
 
