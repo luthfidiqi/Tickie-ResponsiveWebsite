@@ -214,6 +214,7 @@
   width: 100%;
   height: 100%;
   margin-top: 74px;
+  margin-bottom: 96px;
   padding: 48px;
 }
 
@@ -267,4 +268,91 @@
 ::placeholder {
   color: #a0a3bd !important;
   font-size: 14px !important;
+}
+
+/* FOOTER */
+footer {
+  background-color: white;
+}
+
+.footer-content {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 30%;
+  padding-top: 95px;
+  padding-right: 89px;
+}
+
+.logo p {
+  margin-top: 15px;
+  color: #6e7191;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.explore {
+  width: 20%;
+  padding-top: 110px;
+}
+
+.explore h3 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.explore p {
+  font-size: 14px;
+  color: #4e4b66;
+}
+
+.sponsor {
+  width: 30%;
+  padding-top: 110px;
+}
+
+.sponsor img {
+  display: block;
+  margin-bottom: 23px;
+}
+
+.sponsor h3 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.follow {
+  width: 20%;
+  padding-top: 110px;
+}
+
+.follow h3 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.follow a {
+  color: #6e7191;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.follow-list {
+  margin-bottom: 24px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 47px;
+  font-size: 14px;
+  color: #4e4b66;
 }
