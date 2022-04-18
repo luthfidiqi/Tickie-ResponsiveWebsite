@@ -106,6 +106,9 @@
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-sign-in:hover {
