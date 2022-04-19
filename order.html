@@ -14,7 +14,7 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/payment.css" />
+    <link rel="stylesheet" href="assets/css/order.css" />
 
     <title>Tickie - Ticket Booking</title>
   </head>
@@ -63,89 +63,28 @@
     <main class="d-flex container">
       <div class="left-content">
         <section class="payment-info disable-mobile">
-          <h1>Payment Info</h1>
+          <h1>Movie Selected</h1>
           <div class="payment-card">
-            <div class="payment-card-content d-flex">
-              <h2>Date & time</h2>
-              <p>Tuesday, 07 July 2020 at 02:00</p>
-            </div>
-            <div class="payment-line"></div>
-            <div class="payment-card-content d-flex">
-              <h2>Movie title</h2>
-              <p>Spider-Man: Homecoming</p>
-            </div>
-            <div class="payment-line"></div>
-            <div class="payment-card-content d-flex">
-              <h2>Cinema name</h2>
-              <p>CineOne21 Cinema</p>
-            </div>
-            <div class="payment-line"></div>
-            <div class="payment-card-content d-flex">
-              <h2>Number of tickets</h2>
-              <p>3 pieces</p>
-            </div>
-            <div class="payment-line"></div>
-            <div class="payment-card-content d-flex">
-              <h2>Total payment</h2>
-              <p>$30,00</p>
+            <div
+              class="movie-select d-flex align-items-center justify-content-between"
+            >
+              <h2>Spider-Man: Homecoming</h2>
+              <a
+                class="d-flex btn-change btn btn-outline-primary"
+                aria-current="page"
+                href="#"
+              >
+                Change movie
+              </a>
             </div>
           </div>
         </section>
         <section class="payment-info">
-          <h1>Choose a Payment Method</h1>
-          <div class="payment-card">
-            <div class="payment-method row">
-              <div class="col payment-method-logo">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_google-pay.svg" alt=""
-                /></a>
-              </div>
-              <div class="col payment-method-logo">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_visa.svg" alt=""
-                /></a>
-              </div>
-              <div class="col payment-method-logo">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_google-pay.svg" alt=""
-                /></a>
-              </div>
-              <div class="col payment-method-logo me-0">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_paypal.svg" alt=""
-                /></a>
-              </div>
-            </div>
-            <div class="payment-method row">
-              <div class="col payment-method-logo">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_dana.svg" alt=""
-                /></a>
-              </div>
-              <div class="col payment-method-logo">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_bca.svg" alt=""
-                /></a>
-              </div>
-              <div class="col payment-method-logo">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_bri.svg" alt=""
-                /></a>
-              </div>
-              <div class="col payment-method-logo me-0">
-                <a href="#"
-                  ><img src="assets/img/payment/logos_ovo.svg" alt=""
-                /></a>
-              </div>
-            </div>
-            <div class="or d-flex container">
-              <div class="or-line"></div>
-              <a href="#">or</a>
-              <div class="or-line"></div>
-            </div>
-            <div class="how">
-              <p>Pay via cash. <a href=""> See how it work </a></p>
-            </div>
+          <h1>Choose Your Seat</h1>
+          <div
+            class="payment-card d-flex flex-column justify-content-center align-items-center"
+          >
+            <img src="assets/img/order/seat.png" alt="" />
           </div>
           <div class="content-btn-payment d-flex">
             <a
@@ -153,63 +92,48 @@
               aria-current="page"
               href="#"
             >
-              Previous step
+              Change your movie
             </a>
             <a
               class="d-flex btn-payment-active btn btn-outline-primary"
               aria-current="page"
               href="#"
             >
-              Pay your order
+              Checkout now
             </a>
           </div>
         </section>
       </div>
       <aside class="right-content">
         <section class="payment-info">
-          <h1>Personal Info</h1>
+          <h1>Order Info</h1>
           <div class="payment-card">
-            <form class="personal-info-form">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Full Name</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Jonas El Rodriguez"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control form-join"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="jonasrodri123@gmail.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Phone Number</label
-                >
-                <input
-                  type="email"
-                  class="form-control form-join"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="+62 81445687121"
-                />
-              </div>
-            </form>
-            <div class="alert alert-warning" role="alert">
-              <div class="alert-content">
-                <img src="assets/img/payment/warning-icon.svg" alt="" />
-                <p>Fill your data correctly.</p>
-              </div>
+            <div class="d-flex flex-column align-items-center">
+              <img src="assets/img/order/CineOne.png" alt="" />
+              <h2>CineOne21 Cinema</h2>
+            </div>
+            <div class="payment-card-content d-flex">
+              <h2>Movie selected</h2>
+              <p>Spider-Man: Homecoming</p>
+            </div>
+            <div class="payment-card-content d-flex">
+              <h2>Tuesday, 07 July 2020</h2>
+              <p>02:00</p>
+            </div>
+            <div class="payment-card-content d-flex">
+              <h2>One ticket price</h2>
+              <p>$10</p>
+            </div>
+            <div class="payment-card-content d-flex">
+              <h2>Seat choosed</h2>
+              <p>C4, C5, C6</p>
+            </div>
+            <div class="payment-line"></div>
+            <div
+              class="total-pay d-flex align-items-center justify-content-between"
+            >
+              <h2>Total Payment</h2>
+              <p>$30</p>
             </div>
           </div>
         </section>
