@@ -26,9 +26,9 @@ Web : []
 ### Screenshot
 
 <div >
-    <img src="./assets/img/preview/sign-in">
-    <img src="./assets/img/preview/home">
-    <img src="./assets/img/preview/movie-details">
-    <img src="./assets/img/preview/order">
-    <img src="./assets/img/preview/payment">
+    <img src="assets/img/preview/sign-in">
+    <img src="assets/img/preview/home">
+    <img src="assets/img/preview/movie-details">
+    <img src="assets/img/preview/order">
+    <img src="assets/img/preview/payment">
 </div>
