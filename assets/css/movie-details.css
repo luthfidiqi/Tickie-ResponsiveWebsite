@@ -131,6 +131,11 @@
   margin-bottom: 72px;
 }
 
+#dropdownMenuButton1::after,
+#dropdownMenuButton2::after {
+  display: none;
+}
+
 .dropdown {
   margin-right: 24px;
 }
@@ -149,6 +154,8 @@
   color: #4e4b66;
   font-size: 16px;
   font-weight: 600;
+  width: 284px;
+  justify-content: space-between;
 }
 
 .dropdown button:hover {
@@ -156,12 +163,11 @@
   color: #4e4b66;
 }
 
-.dropdown button img {
+.icon-text-filter img {
   margin-right: 24px;
 }
 
 .dropdown button p {
-  margin-right: 108px;
   margin-bottom: 0;
 }
 
@@ -363,6 +369,77 @@ footer {
 }
 
 @media (max-width: 575.98px) {
+  /* MOVIE DETAIL */
+  .movie-detail {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movie-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  .movie-image img {
+    padding: 32px;
+  }
+
+  .movie-text {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .movie-text h1,
+  .movie-text h2 {
+    text-align: center;
+  }
+
+  /* SHOWTIMES & TICKET */
+  .showtimes {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .showtimes-card {
+    margin-right: 0;
+  }
+
+  .filter {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+
+  .dropdown button {
+    margin-right: 0 !important;
+    width: 100%;
+  }
+
+  .dropdown button p {
+    margin-right: 0;
+  }
+
+  .dropdown {
+    margin-right: 0;
+    margin-bottom: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .view-more a {
+    margin: 0 32px 0 32px;
+    width: 40%;
+  }
+
+  /* FOOTER */
   .footer-content {
     flex-direction: column;
     padding-left: 24px;
