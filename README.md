@@ -22,7 +22,7 @@ Technology used in this project.
 
 ### Link
 
-Web : []
+Website Preview : [https://tickie.netlify.app]
 
 ### Screenshot
 
